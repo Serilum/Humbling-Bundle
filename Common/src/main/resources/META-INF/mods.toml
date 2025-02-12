@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="humblingbundle"
-version="2.3"
+version="2.4"
 displayName="Humbling Bundle"
 displayURL="https://serilum.com/mod/humbling-bundle"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''Doubles all dropped entity loot, inspired by the Binding of Isaac
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, Cherriesaurus, LyraKeaton, Michael W. S., Tyler Behl, XAgent   
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, David Sanchez, drdog111, Michael W. S., t128, Tyler Behl, XAgent   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.humblingbundle]]
     modId="collective"
     mandatory=true
-    versionRange="[7.89,)"
+    versionRange="[7.91,)"
     ordering="NONE"
     side="BOTH"
 
