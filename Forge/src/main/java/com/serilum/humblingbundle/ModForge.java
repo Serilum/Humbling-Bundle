@@ -1,9 +1,9 @@
-package com.natamus.humblingbundle;
+package com.serilum.humblingbundle;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.humblingbundle.forge.events.ForgeEntityDroppingEvent;
-import com.natamus.humblingbundle.util.Reference;
+import com.serilum.humblingbundle.forge.events.ForgeEntityDroppingEvent;
+import com.serilum.humblingbundle.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

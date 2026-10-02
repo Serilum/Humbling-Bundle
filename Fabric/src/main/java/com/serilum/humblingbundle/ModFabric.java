@@ -1,10 +1,10 @@
-package com.natamus.humblingbundle;
+package com.serilum.humblingbundle;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveEntityEvents;
-import com.natamus.humblingbundle.events.EntityDroppingEvent;
-import com.natamus.humblingbundle.util.Reference;
+import com.serilum.humblingbundle.events.EntityDroppingEvent;
+import com.serilum.humblingbundle.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
