@@ -1,4 +1,4 @@
-package com.natamus.humblingbundle.events;
+package com.serilum.humblingbundle.events;
 
 import com.natamus.collective.functions.TaskFunctions;
 import net.minecraft.core.BlockPos;
