@@ -1,4 +1,4 @@
-package com.natamus.humblingbundle;
+package com.serilum.humblingbundle;
 
 
 public class ModCommon {

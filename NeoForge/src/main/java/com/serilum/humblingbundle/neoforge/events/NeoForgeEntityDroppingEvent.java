@@ -1,6 +1,6 @@
-package com.natamus.humblingbundle.neoforge.events;
+package com.serilum.humblingbundle.neoforge.events;
 
-import com.natamus.humblingbundle.events.EntityDroppingEvent;
+import com.serilum.humblingbundle.events.EntityDroppingEvent;
 import net.minecraft.world.entity.Entity;
 import net.neoforged.neoforge.event.entity.living.LivingDropsEvent;
 import net.neoforged.bus.api.SubscribeEvent;

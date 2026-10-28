@@ -1,4 +1,4 @@
-package com.natamus.humblingbundle.events;
+package com.serilum.humblingbundle.events;
 
 import com.natamus.collective.data.Constants;
 import com.natamus.collective.functions.TaskFunctions;
@@ -30,7 +30,7 @@ public class EntityDroppingEvent {
 			return;
 		}
 
-        List<ItemStack> equipment = new ArrayList<>();
+		List<ItemStack> equipment = new ArrayList<>();
 		for (EquipmentSlot equipmentSlot : Constants.equipmentSlots) {
 			ItemStack slotStack = livingEntity.getItemBySlot(equipmentSlot);
 			if (!slotStack.isEmpty()) {

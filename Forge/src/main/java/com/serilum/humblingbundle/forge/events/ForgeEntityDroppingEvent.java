@@ -1,6 +1,6 @@
-package com.natamus.humblingbundle.forge.events;
+package com.serilum.humblingbundle.forge.events;
 
-import com.natamus.humblingbundle.events.EntityDroppingEvent;
+import com.serilum.humblingbundle.events.EntityDroppingEvent;
 import net.minecraft.world.entity.Entity;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;

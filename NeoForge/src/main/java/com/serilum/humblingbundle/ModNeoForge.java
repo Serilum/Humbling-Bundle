@@ -1,9 +1,9 @@
-package com.natamus.humblingbundle;
+package com.serilum.humblingbundle;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.humblingbundle.neoforge.events.NeoForgeEntityDroppingEvent;
-import com.natamus.humblingbundle.util.Reference;
+import com.serilum.humblingbundle.neoforge.events.NeoForgeEntityDroppingEvent;
+import com.serilum.humblingbundle.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
