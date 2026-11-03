@@ -36,7 +36,7 @@ public class EntityDroppingEvent {
 		}
 
 		BlockPos epos = entity.blockPosition();
-		TaskFunctions.enqueueTask(level, () -> {
+		TaskFunctions.enqueueCollectiveServerTask(level.getServer(), () -> {
 			List<ItemEntity> dropEntities = new ArrayList<ItemEntity>();
 			for (Entity ea : level.getEntities(null, new AABB(epos.getX()-1, epos.getY()-1, epos.getZ()-1, epos.getX()+1, epos.getY()+1, epos.getZ()+1))) {
 				if (ea instanceof ItemEntity) {
